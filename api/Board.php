@@ -5,7 +5,7 @@ class Board {
   private $user_id;
     
   private static function connect() {
-    return new mysqli("classroom.cs.unc.edu", "superqd", "upm3XuKe333tZjvY", "superqddb");
+    return new mysqli("classroom.cs.unc.edu", "redacted", "redacted", "redacted");
   }
     
   public static function create($new_description, $new_user_id) {
